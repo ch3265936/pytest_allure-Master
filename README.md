@@ -2,8 +2,9 @@
 2、run_test.py 程序入口获取多设备 多线程分配新建appim server 4700-4900 组合allure 
 3、执行结束可以使用create_allure.bat & create_allure_open.bat 执行生成报告
 4、根据自己的App包名启动页修改base_driver；
-项目框架内部：
 
+
+项目框架内部：
 driver包存放appium driver
 service包含CMD获取设备 启动appuim 服务以及端口
 utils包含日志和报错截图封装
