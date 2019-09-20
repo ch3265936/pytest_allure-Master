@@ -1,0 +1,123 @@
+{
+  "uid" : "ff2ff6acf1b83ae3",
+  "name" : "test_login2",
+  "fullName" : "test_action.test_two#test_login2",
+  "historyId" : "35a33dd22775395265ea719f74755ee4",
+  "time" : {
+    "start" : 1568951455640,
+    "stop" : 1568951487754,
+    "duration" : 32114
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "init_test",
+    "time" : {
+      "start" : 1568951443943,
+      "stop" : 1568951455639,
+      "duration" : 11696
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7bcb28443c443050",
+      "name" : "log",
+      "source" : "7bcb28443c443050.txt",
+      "type" : "text/plain",
+      "size" : 205
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "init_test::0",
+    "time" : {
+      "start" : 1568951487755,
+      "stop" : 1568951488257,
+      "duration" : 502
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_action"
+  }, {
+    "name" : "suite",
+    "value" : "test_two"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7QNN7QJ"
+  }, {
+    "name" : "thread",
+    "value" : "11984-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_action.test_two"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55bdbfcd57f77b0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568951208616,
+        "stop" : 1568951240822,
+        "duration" : 32206
+      }
+    }, {
+      "uid" : "ed2e7413ce6715ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568951068402,
+        "stop" : 1568951101716,
+        "duration" : 33314
+      }
+    }, {
+      "uid" : "407960c416af6ab9",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('init_', <FixtureRequest for <Function test_login2>>)",
+      "time" : {
+        "start" : 1568951029860,
+        "stop" : 1568951029860,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff2ff6acf1b83ae3.json",
+  "parameterValues" : [ ]
+}

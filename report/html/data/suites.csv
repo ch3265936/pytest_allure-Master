@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_action.test_get_score#test_login","35803",""
+"passed","test_action.test_one#test_login","30400",""
+"passed","test_action.test_two#test_login2","32114",""

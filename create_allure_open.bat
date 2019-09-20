@@ -1,0 +1,1 @@
+allure open D:\pytest_allure-master\pytest_allure-master\report\html

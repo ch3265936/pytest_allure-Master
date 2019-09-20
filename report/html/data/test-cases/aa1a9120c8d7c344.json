@@ -1,0 +1,114 @@
+{
+  "uid" : "aa1a9120c8d7c344",
+  "name" : "test_login",
+  "fullName" : "test_action.test_one#test_login",
+  "historyId" : "12cc0e366e7d3c6d7582d2a0829ca82d",
+  "time" : {
+    "start" : 1568951413029,
+    "stop" : 1568951443429,
+    "duration" : 30400
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "init_test",
+    "time" : {
+      "start" : 1568951400465,
+      "stop" : 1568951413028,
+      "duration" : 12563
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86d94483783355d8",
+      "name" : "log",
+      "source" : "86d94483783355d8.txt",
+      "type" : "text/plain",
+      "size" : 205
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "init_test::0",
+    "time" : {
+      "start" : 1568951443430,
+      "stop" : 1568951443925,
+      "duration" : 495
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_action"
+  }, {
+    "name" : "suite",
+    "value" : "test_one"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7QNN7QJ"
+  }, {
+    "name" : "thread",
+    "value" : "11984-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_action.test_one"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "db61793a46c1a350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568951165830,
+        "stop" : 1568951196273,
+        "duration" : 30443
+      }
+    }, {
+      "uid" : "545f9849e05f8bff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568950976311,
+        "stop" : 1568951006488,
+        "duration" : 30177
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa1a9120c8d7c344.json",
+  "parameterValues" : [ ]
+}

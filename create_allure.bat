@@ -1,0 +1,1 @@
+allure generate D:\pytest_allure-master\pytest_allure-master\report\xml/ -o D:\pytest_allure-master\pytest_allure-master\report\html

@@ -1,0 +1,52 @@
+{
+  "uid" : "407960c416af6ab9",
+  "name" : "test_login2",
+  "fullName" : "test_action.test_two#test_login2",
+  "historyId" : "35a33dd22775395265ea719f74755ee4",
+  "time" : {
+    "start" : 1568951029860,
+    "stop" : 1568951029860,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('init_', <FixtureRequest for <Function test_login2>>)",
+  "statusTrace" : "file d:\\xxqg_get_core-master\\xxqg_get_core-master\\test_action\\test_two.py, line 7\n  def test_login2(init_):\nE       fixture 'init_' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, init_test, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nd:\\xxqg_get_core-master\\xxqg_get_core-master\\test_action\\test_two.py:7",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_action"
+  }, {
+    "name" : "suite",
+    "value" : "test_two"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7QNN7QJ"
+  }, {
+    "name" : "thread",
+    "value" : "4912-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_action.test_two"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "407960c416af6ab9.json",
+  "parameterValues" : [ ]
+}

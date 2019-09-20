@@ -1,0 +1,3 @@
+INFO     学习强国:base_driver.py:22 初始化 Android driver...
+INFO     学习强国:base_driver.py:35 driver 初始化完成！
+INFO     学习强国:base_driver.py:17 测试完成，退出 driver！

@@ -1,0 +1,53 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-7QNN7QJ",
+    "children" : [ {
+      "name" : "5240-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "8ba8bd322af3cea7",
+        "parentUid" : "36c15bd4775dae5ae0d19cf12b03657b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568948768363,
+          "stop" : 1568948804166,
+          "duration" : 35803
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36c15bd4775dae5ae0d19cf12b03657b"
+    }, {
+      "name" : "11984-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "aa1a9120c8d7c344",
+        "parentUid" : "46d63e01537ee0e89a2ca4b8f674d94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568951413029,
+          "stop" : 1568951443429,
+          "duration" : 30400
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login2",
+        "uid" : "ff2ff6acf1b83ae3",
+        "parentUid" : "46d63e01537ee0e89a2ca4b8f674d94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568951455640,
+          "stop" : 1568951487754,
+          "duration" : 32114
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46d63e01537ee0e89a2ca4b8f674d94a"
+    } ],
+    "uid" : "4f04448ed6d6e3bf38056b72a0916d4c"
+  } ]
+}
